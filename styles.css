@@ -1,0 +1,135 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+#calculator {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(243, 243, 243);
+  width: 280px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+  border-style: solid;
+  border-width: 7px;
+  border-bottom-width: 10px;
+}
+#homebutton {
+  width: 100px; /* Adjust size to be circular */
+  height: 4px;
+  background: #bdbdbd;
+  border-radius: 10px;
+  margin-top: 10px; /* Space above the home button */
+  margin-bottom: 1px;
+}
+.notch {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding-top: 5px;
+}
+#camera {
+  width: 70px;
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#batteryicon {
+  width: 23px;
+  background-color: black;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  text-align: right;
+  padding-right: 1px;
+  margin-right: 15px;
+}
+#battery-level {
+  color: white;
+  font-size: 8px;
+  margin: 1px;
+}
+#time {
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 15px;
+  flex-grow: 1;
+  text-align: left;
+}
+#blankspace {
+  color: black;
+  width: 100%;
+  height: 50px;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 2px;
+}
+#inputNumber {
+  color: black;
+  width: 100%;
+  height: 70px;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-right: 10px;
+}
+#outputNumber {
+  color: gray;
+  width: 100%;
+  height: 70px;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  font-style: normal;
+  border-radius: 50%;
+  border: #333333;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  color: black;
+  /* background-color: #333333; */
+  /* color: #FFFFFD; */
+}
+#operator {
+  background-color: #ff9f0c;
+  color: #fffffd;
+}
+#controls {
+  background-color: #a5a5a5;
+  color: black;
+  font-size: 25px;
+}
