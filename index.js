@@ -24,7 +24,7 @@ function updateFontSize(element) {
   }
 }
 
-//* DISPLAYS THE NUMBER ON SCREEN ON BUTTON PRESS
+//* DISPLAYS THE NUMBER ON SCREEN ON BUTTON PRESS.
 function appendTo(number) {
   if (inputNumber.textContent.length < 27) {
     if (number === "/") {
